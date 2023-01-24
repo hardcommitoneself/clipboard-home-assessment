@@ -1,0 +1,19 @@
+{
+  "name": "deterministicPartitionKey",
+  "scripts": {
+    "start": "node ./src/deterministicPartitionKey.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "crypto": "^1.0.1",
+    "jest": "^29.3.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "type": "module"
+}
